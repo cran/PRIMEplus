@@ -1,0 +1,6 @@
+import(stats)
+import(utils)
+import(survival)
+import(msm)
+useDynLib(PRIMEplus)
+export(PRIMEplus.EM, getHazard, generate_data, PRIMEplus.LRT, PRIMEplus.ReRand.LRT, PRIMEplus.Power, PRIMEplus.SampleSize)
